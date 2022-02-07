@@ -51,7 +51,7 @@ public function SetDatabase($Db)
 {
 	if(!$Db)
 	{
-		print_r("Pls add Database name in .env file");
+		print_r("Please add Database name in .env file");
 		exit();
 	}
 	$this->Database=$Db;
