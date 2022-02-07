@@ -20,7 +20,7 @@ public function SetServer($Server)
 	
 	if(!$Server)
 	{
-		print_r("Pls add server name in .env file");
+		print_r("Please add server name in .env file");
 		exit();
 	}
 	$this->Server=$Server;
@@ -36,7 +36,7 @@ public function SetUser($User)
 {
 	if(!$User)
 	{
-		print_r("Pls add User name in .env file");
+		print_r("Please add User name in .env file");
 		exit();
 	}
 	$this->user=$User;
